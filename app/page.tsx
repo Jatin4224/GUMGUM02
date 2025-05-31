@@ -7,6 +7,9 @@ export default function Home() {
       <Button asChild variant="outline">
         <Link href="/login">lOGIN</Link>
       </Button>
+      <Button asChild variant="destructive">
+        <Link href="/login">lOGIN</Link>
+      </Button>
     </div>
   );
 }
