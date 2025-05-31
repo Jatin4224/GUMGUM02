@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 import Link from "next/link";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <Button asChild variant="destructive">
         <Link href="/login">lOGIN</Link>
       </Button>
+      <Input placeholder="write text"></Input>
     </div>
   );
 }
